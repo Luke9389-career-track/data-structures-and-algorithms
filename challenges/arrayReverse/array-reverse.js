@@ -1,7 +1,7 @@
 function arrayReverse(arr) {
   const newArr = [];
   const length = arr.length;
-  for (let i = 0; i < length; i++) {
+  for(let i = 0; i < length; i++) {
     newArr[length - i - 1] = arr[i];
   }
   return newArr;
