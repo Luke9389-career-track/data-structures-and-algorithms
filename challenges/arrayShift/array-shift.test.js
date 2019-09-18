@@ -9,7 +9,7 @@ describe('shifter module', () => {
 
   });
 
-  it('example 1', () => {
+  it('example 2', () => {
     const array2 = [4, 8, 15, 23, 42];
     const number2 = 16;
 
