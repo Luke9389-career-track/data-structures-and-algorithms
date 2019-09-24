@@ -7,3 +7,7 @@
 2. [Array Shift](challenges/arrayShift/README.md)
 
 3. [Array Binary Search](challenges/arrayBinarySearch/README.md)
+
+4. Code challenge 4 was a text submission
+
+5. [Linked List](challenges/linkedList/README.md)
