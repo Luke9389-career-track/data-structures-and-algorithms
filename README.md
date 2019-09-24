@@ -11,3 +11,5 @@
 4. Code challenge 4 was a text submission
 
 5. [Linked List](challenges/linkedList/README.md)
+
+6. [Linked List Insertions](challenges/linkedList/README.md)
