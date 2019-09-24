@@ -24,15 +24,23 @@ class LinkedList {
   }
 
   toString() {
-    let str = '';
-    let currentNode = this.head;
-    for(let i = 0; i < this.size; i++) {
-      str + `${currentNode.value}`;
+    let str = `${this.head.value}`;
+    let currentNode = this.head.next;
+    console.log(this.size);
+    for(let i = 1; i < this.size; i++) {
+      str = str + `, ${currentNode.value}`;
       currentNode = currentNode.next;
     }
     return str;
   }
 
+  append() {
+    let currentNode = this.head;
+    for(let i = 0; i < this.size; i++) {
+      currentNode = currentNode.next;
+    }
+    console.log(currentNode);
+  }
 }
 
 class Node {

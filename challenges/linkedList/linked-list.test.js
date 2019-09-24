@@ -51,7 +51,22 @@ describe('Linked list', () => {
   });
 
   it('will return true when finding a value that exists in the list', ()=>{
+    const list = new LinkedList;
+    list.insert('first');
+    list.insert('second');
+    list.insert('third');
+  
+    expect(list.includes('four')).toBe(false);
+    expect(list.includes('third')).toBe(true);
+  });
 
+  it('will return an array of values', () => {
+    const list = new LinkedList;
+    list.insert('first');
+    list.insert('second');
+    list.insert('third');
+
+    expect(list.toString()).toBe('third, second, first');
   });
 
 });
