@@ -26,7 +26,6 @@ class LinkedList {
   toString() {
     let str = `${this.head.value}`;
     let currentNode = this.head.next;
-    console.log(this.size);
     for(let i = 1; i < this.size; i++) {
       str = str + `, ${currentNode.value}`;
       currentNode = currentNode.next;
@@ -34,12 +33,43 @@ class LinkedList {
     return str;
   }
 
-  append() {
+  append(value) {
     let currentNode = this.head;
-    for(let i = 0; i < this.size; i++) {
+    while(currentNode ? currentNode.next : false) {
       currentNode = currentNode.next;
     }
-    console.log(currentNode);
+    const node = new Node(value);
+    currentNode ? currentNode.next = node : this.head = node, this.size++;
+  }
+
+  insertBefore(value, newVal) {
+    let currentNode = this.head;
+    if(currentNode) {
+      console.log(currentNode);
+      while(currentNode.next.value !== value) {
+        currentNode = currentNode.next;
+      }
+      const node = new Node(newVal);
+      node.next = currentNode.next;
+      currentNode.next = node;
+      this.size++;
+
+    } else { throw new Error('cannot use insertBefore on empty list'); }
+  }
+
+  insertAfter(value, newVal) {
+    let currentNode = this.head;
+    if(currentNode) {
+      console.log(currentNode);
+      while(currentNode.value !== value) {
+        currentNode = currentNode.next;
+      }
+      const node = new Node(newVal);
+      node.next = currentNode.next;
+      currentNode.next = node;
+      this.size++;
+
+    } else { throw new Error('cannot use insertAfter on empty list'); }
   }
 }
 
