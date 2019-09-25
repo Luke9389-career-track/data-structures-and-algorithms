@@ -112,4 +112,27 @@ describe('Linked list', () => {
     }).toThrow('cannot use insertAfter on empty list');
   });
 
+  it('will return the node that is a given distance from the end of the list', () => {
+    const list = new LinkedList;
+    expect.assertions(6);
+    list.append(1);
+    list.append(3);
+    list.append(8);
+    list.append(2);
+    expect(list.kthFromEnd(0).value).toBe(2);
+    expect(list.kthFromEnd(2).value).toBe(3);
+    expect(() => {
+      list.kthFromEnd(-8);
+    }).toThrow('cannot use negative k');
+    expect(() => {
+      list.kthFromEnd(8);
+    }).toThrow('k cannot be greater than or equal to list size');
+    expect(() => {
+      list.kthFromEnd(4);
+    }).toThrow('k cannot be greater than or equal to list size');
+    const emptyList = new LinkedList;
+    expect(() => {
+      emptyList.kthFromEnd(3);
+    }).toThrow('cannot use kthFromEnd on empty list');
+  });
 });
