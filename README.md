@@ -15,3 +15,5 @@
 6. [Linked List Insertions](challenges/linkedList/README.md)
 
 7. [Linked List kth From End](challenges/linkedList/README.md)
+
+7. [Linked List Merge](challenges/linkedList/README.md)

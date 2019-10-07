@@ -1,4 +1,5 @@
 const { LinkedList } = require('./linked-list');
+const { merge } = require('../ll-merge/ll-merge');
 
 describe('Linked list', () => {
   it('can make an empty list', () => {
@@ -135,4 +136,28 @@ describe('Linked list', () => {
       emptyList.kthFromEnd(3);
     }).toThrow('cannot use kthFromEnd on empty list');
   });
+
+  it('will merge (zip) two linked lists together', () => {
+    const list1 = new LinkedList;
+    list1.append(2);
+    list1.append(4);
+    list1.append(6);
+    list1.append(8);
+
+    const list2 = new LinkedList;
+    list2.append(1);
+    list2.append(3);
+    list2.append(5);
+    list2.append(7);
+
+    const list3 = new LinkedList;
+    list3.append('a');
+    list3.append('b');
+
+    const newList = merge(list1, list2);
+    expect(newList.toString()).toBe('2, 1, 4, 3, 6, 5, 8, 7');
+    const newList2 = merge(list2, list3);
+    expect(newList2.toString()).toBe('1, a, 3, b, 5, 7');
+  });
+
 });
