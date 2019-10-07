@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1570484660354" clover="3.2.0">
+  <project timestamp="1570484660354" name="All files">
+    <metrics statements="77" coveredstatements="75" conditionals="24" coveredconditionals="23" methods="12" coveredmethods="12" elements="113" coveredelements="110" complexity="0" loc="77" ncloc="77" packages="4" files="4" classes="4"/>
+    <package name="arrayBinarySearch">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="array-binary-search.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="arrayShift">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="array-shift.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayShift/array-shift.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="linkedList">
+      <metrics statements="54" coveredstatements="52" conditionals="16" coveredconditionals="16" methods="9" coveredmethods="9"/>
+      <file name="linked-list.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/linkedList/linked-list.js">
+        <metrics statements="54" coveredstatements="52" conditionals="16" coveredconditionals="16" methods="9" coveredmethods="9"/>
+        <line num="3" count="18" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="14" type="stmt"/>
+        <line num="31" count="14" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="37" count="35" type="stmt"/>
+        <line num="38" count="35" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="41" type="stmt"/>
+        <line num="41" count="35" type="stmt"/>
+        <line num="42" count="35" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="83" count="4" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="95" count="48" type="stmt"/>
+        <line num="96" count="48" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ll-merge">
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="ll-merge.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/ll-merge/ll-merge.js">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
