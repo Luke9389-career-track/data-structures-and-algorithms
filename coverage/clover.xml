@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1570492826135" clover="3.2.0">
-  <project timestamp="1570492826135" name="All files">
-    <metrics statements="99" coveredstatements="97" conditionals="28" coveredconditionals="27" methods="21" coveredmethods="21" elements="148" coveredelements="145" complexity="0" loc="99" ncloc="99" packages="5" files="5" classes="5"/>
+<coverage generated="1570503131509" clover="3.2.0">
+  <project timestamp="1570503131509" name="All files">
+    <metrics statements="112" coveredstatements="108" conditionals="28" coveredconditionals="27" methods="26" coveredmethods="25" elements="166" coveredelements="160" complexity="0" loc="112" ncloc="112" packages="6" files="6" classes="6"/>
     <package name="arrayBinarySearch">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -104,20 +104,39 @@
         <line num="16" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="pseudoQueue">
+      <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <file name="pseudo-queue.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/pseudoQueue/pseudo-queue.js">
+        <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="13" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="stacksAndQueues">
       <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9"/>
       <file name="stacks-and-queues.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/stacksAndQueues/stacks-and-queues.js">
         <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9"/>
-        <line num="3" count="26" type="stmt"/>
-        <line num="4" count="26" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
-        <line num="14" count="13" type="stmt"/>
-        <line num="15" count="13" type="stmt"/>
-        <line num="16" count="13" type="stmt"/>
-        <line num="20" count="4" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="3" count="52" type="stmt"/>
+        <line num="4" count="52" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="14" count="39" type="stmt"/>
+        <line num="15" count="39" type="stmt"/>
+        <line num="16" count="39" type="stmt"/>
+        <line num="20" count="26" type="stmt"/>
+        <line num="21" count="26" type="stmt"/>
+        <line num="22" count="26" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
         <line num="33" count="6" type="stmt"/>
         <line num="37" count="13" type="stmt"/>
         <line num="38" count="13" type="cond" truecount="2" falsecount="0"/>
@@ -128,7 +147,7 @@
         <line num="47" count="4" type="stmt"/>
         <line num="48" count="4" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
       </file>
     </package>
   </project>
