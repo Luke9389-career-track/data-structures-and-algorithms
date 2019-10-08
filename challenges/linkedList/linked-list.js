@@ -39,7 +39,8 @@ class LinkedList {
       currentNode = currentNode.next;
     }
     const node = new Node(value);
-    currentNode ? currentNode.next = node : this.head = node, this.size++;
+    currentNode ? currentNode.next = node : this.head = node;
+    this.size++;
   }
 
   insertBefore(value, newVal) {
@@ -71,23 +72,20 @@ class LinkedList {
   }
 
   kthFromEnd(k) {
-    if(k < 0){
+    if(k < 0) {
       throw new Error('cannot use negative k');
     } else if(this.size === 0) {
       throw new Error('cannot use kthFromEnd on empty list');
     } else if(k >= this.size) {
-      throw new Error('k cannot be greater than or equal to list size'); 
+      throw new Error('k cannot be greater than or equal to list size');
     } else {
-      let currentNode = this.head; 
+      let currentNode = this.head;
       for(let i = 0; i < this.size - k - 1; i++) {
         currentNode = currentNode.next;
       }
       return currentNode;
     }
   }
-
-  
-
 }
 
 class Node {
