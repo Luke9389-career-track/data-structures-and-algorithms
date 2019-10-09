@@ -1,4 +1,4 @@
-const LinkedList = require('../linkedList/linked-list');
+const { LinkedList } = require('../linkedList/linked-list');
 
 module.exports = class AnimalShelter {
   constructor() {
@@ -17,11 +17,13 @@ module.exports = class AnimalShelter {
   dequeue(pref) {
     if(pref === 'dog') {
       const dog = this.dogList.head;
-      this.dogList.head = this.dogList.head.next;
+      this.dogList.head.next ? this.dogList.head = this.dogList.head.next : this.dogList.head = null;
+      this.dogList.size--;
       return dog;
     } else if(pref === 'cat') {
       const cat = this.catList.head;
       this.catList.head = this.catList.head.next;
+      this.catList.size--;
       return cat;
     } else { return null; }
   }
