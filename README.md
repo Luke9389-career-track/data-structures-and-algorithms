@@ -20,3 +20,5 @@
 
 9. [Stacks and Queues](challenges/stacksAndQueues/README.md)
 
+10. [FIFO Animal Shelter](challenges/fifoAnimalShelter/README.md)
+
