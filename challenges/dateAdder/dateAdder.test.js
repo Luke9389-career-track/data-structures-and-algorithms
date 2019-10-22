@@ -35,6 +35,5 @@ describe('dateAdder', () => {
   it('adds years', () => {
     expect(dateAdder(date, '2y').toUTCString()).toBe(new Date(Date.UTC(98, 1, 1, 3, 4, 5)).toUTCString());
   });
-
 });
 
