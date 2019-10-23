@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571862596394" clover="3.2.0">
-  <project timestamp="1571862596394" name="All files">
-    <metrics statements="173" coveredstatements="169" conditionals="60" coveredconditionals="55" methods="32" coveredmethods="32" elements="265" coveredelements="256" complexity="0" loc="173" ncloc="173" packages="10" files="10" classes="10"/>
+<coverage generated="1571870760654" clover="3.2.0">
+  <project timestamp="1571870760654" name="All files">
+    <metrics statements="171" coveredstatements="167" conditionals="60" coveredconditionals="55" methods="32" coveredmethods="32" elements="263" coveredelements="254" complexity="0" loc="171" ncloc="171" packages="10" files="10" classes="10"/>
     <package name="arrayBinarySearch">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -27,15 +27,13 @@
       </file>
     </package>
     <package name="dailyRevenue">
-      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="dailyRevenue.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/dailyRevenue/dailyRevenue.js">
-        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="2" count="1" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="7" count="100" type="stmt"/>
-        <line num="8" count="100" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="6" count="100" type="stmt"/>
+        <line num="7" count="100" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="100" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
       </file>
     </package>
