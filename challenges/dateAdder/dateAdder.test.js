@@ -10,7 +10,6 @@ const { dateAdder } = require('./dateAdder');
 // y years
 
 const date = new Date(Date.UTC(96, 1, 2, 3, 4, 5));
-console.log(date);
 dateAdder(date, '1s');
 
 describe('dateAdder', () => {

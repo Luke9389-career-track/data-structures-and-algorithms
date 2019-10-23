@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571778932659" clover="3.2.0">
-  <project timestamp="1571778932659" name="All files">
-    <metrics statements="166" coveredstatements="162" conditionals="58" coveredconditionals="53" methods="30" coveredmethods="30" elements="254" coveredelements="245" complexity="0" loc="166" ncloc="166" packages="9" files="9" classes="9"/>
+<coverage generated="1571862596394" clover="3.2.0">
+  <project timestamp="1571862596394" name="All files">
+    <metrics statements="173" coveredstatements="169" conditionals="60" coveredconditionals="55" methods="32" coveredmethods="32" elements="265" coveredelements="256" complexity="0" loc="173" ncloc="173" packages="10" files="10" classes="10"/>
     <package name="arrayBinarySearch">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -24,6 +24,19 @@
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dailyRevenue">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="dailyRevenue.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/dailyRevenue/dailyRevenue.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="100" type="stmt"/>
+        <line num="8" count="100" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
       </file>
     </package>
     <package name="dateAdder">
