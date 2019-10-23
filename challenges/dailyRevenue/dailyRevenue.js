@@ -1,5 +1,6 @@
 function dailyRevenue(transactions) {
   const summary = {};
+  
   transactions.forEach(transaction => {
     //                        Takes out the hours mins and secs   Time Zone
     //transaction.timestamp - (transaction.timestamp % 86400000) + 25200000
