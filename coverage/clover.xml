@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1571948511770" clover="3.2.0">
+  <project timestamp="1571948511771" name="All files">
+    <metrics statements="23" coveredstatements="23" conditionals="9" coveredconditionals="8" methods="13" coveredmethods="13" elements="45" coveredelements="44" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
+    <file name="Set.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/sets/Set.js">
+      <metrics statements="23" coveredstatements="23" conditionals="9" coveredconditionals="8" methods="13" coveredmethods="13"/>
+      <line num="3" count="26" type="stmt"/>
+      <line num="7" count="29" type="stmt"/>
+      <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="21" count="6" type="stmt"/>
+      <line num="22" count="19" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="19" type="stmt"/>
+      <line num="25" count="6" type="stmt"/>
+      <line num="29" count="4" type="stmt"/>
+      <line num="30" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="16" type="stmt"/>
+      <line num="33" count="4" type="stmt"/>
+      <line num="37" count="2" type="stmt"/>
+      <line num="38" count="2" type="stmt"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="40" count="4" type="stmt"/>
+      <line num="42" count="2" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="59" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
