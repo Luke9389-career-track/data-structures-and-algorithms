@@ -1,6 +1,11 @@
 const { Set } = require('./set');
 
 describe('Set instance methods', () => {
+  it('constructor', () => {
+    const set = new Set();
+    expect(set.elements).toEqual([]);
+  });
+
   it('has', () => {
     const set = new Set([1, 2, 3]);
     expect(set.has(3)).toBe(true);
