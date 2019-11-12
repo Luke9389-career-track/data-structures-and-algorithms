@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1573596954595" clover="3.2.0">
-  <project timestamp="1573596954595" name="All files">
-    <metrics statements="153" coveredstatements="151" conditionals="61" coveredconditionals="60" methods="36" coveredmethods="36" elements="250" coveredelements="247" complexity="0" loc="153" ncloc="153" packages="8" files="8" classes="8"/>
+<coverage generated="1573598573562" clover="3.2.0">
+  <project timestamp="1573598573562" name="All files">
+    <metrics statements="160" coveredstatements="158" conditionals="63" coveredconditionals="62" methods="38" coveredmethods="38" elements="261" coveredelements="258" complexity="0" loc="160" ncloc="160" packages="9" files="9" classes="9"/>
     <package name="arrayBinarySearch">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -178,18 +178,18 @@
       <metrics statements="23" coveredstatements="23" conditionals="27" coveredconditionals="27" methods="7" coveredmethods="7"/>
       <file name="tree.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/tree/tree.js">
         <metrics statements="23" coveredstatements="23" conditionals="27" coveredconditionals="27" methods="7" coveredmethods="7"/>
-        <line num="3" count="20" type="stmt"/>
-        <line num="4" count="20" type="stmt"/>
-        <line num="5" count="20" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="16" type="cond" truecount="2" falsecount="0"/>
-        <line num="16" count="15" type="stmt"/>
-        <line num="17" count="15" type="stmt"/>
-        <line num="21" count="5" type="stmt"/>
-        <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="23" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="5" type="stmt"/>
+        <line num="3" count="30" type="stmt"/>
+        <line num="4" count="30" type="stmt"/>
+        <line num="5" count="30" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="23" type="stmt"/>
+        <line num="17" count="23" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="22" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="15" type="stmt"/>
         <line num="28" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="29" count="5" type="stmt"/>
         <line num="30" count="5" type="cond" truecount="2" falsecount="0"/>
@@ -198,9 +198,22 @@
         <line num="36" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="37" count="5" type="stmt"/>
         <line num="38" count="5" type="stmt"/>
-        <line num="43" count="22" type="stmt"/>
-        <line num="44" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="45" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="37" type="stmt"/>
+        <line num="44" count="37" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="37" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="treeIntersection">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="tree-intersection.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/treeIntersection/tree-intersection.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
       </file>
     </package>
   </project>
