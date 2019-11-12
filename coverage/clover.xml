@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1573339313207" clover="3.2.0">
-  <project timestamp="1573339313207" name="All files">
-    <metrics statements="133" coveredstatements="131" conditionals="55" coveredconditionals="54" methods="32" coveredmethods="32" elements="220" coveredelements="217" complexity="0" loc="133" ncloc="133" packages="7" files="7" classes="7"/>
+<coverage generated="1573596954595" clover="3.2.0">
+  <project timestamp="1573596954595" name="All files">
+    <metrics statements="153" coveredstatements="151" conditionals="61" coveredconditionals="60" methods="36" coveredmethods="36" elements="250" coveredelements="247" complexity="0" loc="153" ncloc="153" packages="8" files="8" classes="8"/>
     <package name="arrayBinarySearch">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -119,6 +119,32 @@
         <line num="20" count="3" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="repeatedWord">
+      <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="repeated-word.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/repeatedWord/repeated-word.js">
+        <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="27" type="stmt"/>
+        <line num="10" count="27" type="stmt"/>
+        <line num="11" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="27" type="stmt"/>
+        <line num="22" count="30" type="stmt"/>
+        <line num="25" count="54" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
       </file>
     </package>
     <package name="stacksAndQueues">

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for pseudoQueue/pseudo-queue.js</title>
+    <title>Code coverage report for repeatedWord/repeated-word.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -16,18 +16,18 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="../index.html">All files</a> / <a href="index.html">pseudoQueue</a> pseudo-queue.js
+      <a href="../index.html">All files</a> / <a href="index.html">repeatedWord</a> repeated-word.js
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>11/11</span>
+        <span class='fraction'>24/24</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>0/0</span>
+        <span class='fraction'>6/6</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
@@ -37,7 +37,7 @@
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>11/11</span>
+        <span class='fraction'>20/20</span>
       </div>
     </div>
     <p class="quiet">
@@ -76,67 +76,82 @@
 <a name='L28'></a><a href='#L28'>28</a>
 <a name='L29'></a><a href='#L29'>29</a>
 <a name='L30'></a><a href='#L30'>30</a>
-<a name='L31'></a><a href='#L31'>31</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">27x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">13x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">30x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">54x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const { Stack } = require('../stacksAndQueues/stacks-and-queues');
-&nbsp;
-class PseudoQueue {
-  constructor() {
-    this.qStack = new Stack;
-    this.tempStack = new Stack;
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/* eslint-disable no-useless-escape */
+function firstRepeatedWord(str) {
+  const wordArray = str.replace(/[.,\/#!$%\^&amp;\*;:{}=\-_`~()]/g, '').split(' ');
+  const tempArray = [];
+  let word = '';
+  let i = 0;
+  while(word === '') {
+    if(tempArray.includes(wordArray[i].toLowerCase())) { word = wordArray[i]; }
+    tempArray.push(wordArray[i].toLowerCase());
+    i++;
+    if(i &gt;= wordArray.length) word = 'no duplicates found';
   }
-&nbsp;
-  enqueue(value) {
-    while(this.qStack.top) {
-      this.tempStack.push(this.qStack.pop());
-    }
-    this.tempStack.push(value);
-    while(this.tempStack.top) {
-      this.qStack.push(this.tempStack.pop());
-    }
-  }
-&nbsp;
-  dequeue() {
-    return this.qStack.pop();
-  }
-&nbsp;
-  peek() {
-    return this.qStack.peek();
-  }
-&nbsp;
+  return word;
 }
 &nbsp;
+function topRepeatedList(str) {
+  const wordArray = str.replace(/[.,\/#!$%\^&amp;\*;:{}=\-_`~()]/g, '').split(' ');
+&nbsp;
+  const wordDictionary = wordArray.reduce((acc, val, idx) =&gt; {
+    if(acc[val.toLowerCase()]) { acc[val.toLowerCase()][0]++; }
+    else { acc[val.toLowerCase()] = [1, idx]; }
+    return acc;
+  }, {});
+&nbsp;
+  const topFrequent = Object.entries(wordDictionary).sort((a, b) =&gt; { return b[1][0] - a[1][0]; });
+  console.log(`topFrequent --- [['string', ['frequency', 'index first found']]]`);
+  return topFrequent;
+}
+&nbsp;
+topRepeatedList('Once upon a time, there was a brave princess who...');
+&nbsp;
 module.exports = {
-  PseudoQueue
-};</pre></td></tr>
+  firstRepeatedWord,
+  topRepeatedList
+};
+&nbsp;</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
 </div><!-- /wrapper -->
