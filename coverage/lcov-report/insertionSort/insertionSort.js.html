@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for repeatedWord/repeated-word.js</title>
+    <title>Code coverage report for insertionSort/insertionSort.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -16,28 +16,28 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="../index.html">All files</a> / <a href="index.html">repeatedWord</a> repeated-word.js
+      <a href="../index.html">All files</a> / <a href="index.html">insertionSort</a> insertionSort.js
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>24/24</span>
+        <span class='fraction'>10/10</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>6/6</span>
+        <span class='fraction'>2/2</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>4/4</span>
+        <span class='fraction'>1/1</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>20/20</span>
+        <span class='fraction'>9/9</span>
       </div>
     </div>
     <p class="quiet">
@@ -74,83 +74,62 @@
 <a name='L26'></a><a href='#L26'>26</a>
 <a name='L27'></a><a href='#L27'>27</a>
 <a name='L28'></a><a href='#L28'>28</a>
-<a name='L29'></a><a href='#L29'>29</a>
-<a name='L30'></a><a href='#L30'>30</a>
-<a name='L31'></a><a href='#L31'>31</a>
-<a name='L32'></a><a href='#L32'>32</a>
-<a name='L33'></a><a href='#L33'>33</a>
-<a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L29'></a><a href='#L29'>29</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">30x</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-yes">30x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">54x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/* eslint-disable no-useless-escape */
-function firstRepeatedWord(str) {
-  const wordArray = str.replace(/[.,\/#!$%\^&amp;\*;:{}=\-_`~()]/g, '').split(' ');
-  const tempArray = [];
-  let word = '';
-  let i = 0;
-  while(word === '') {
-    if(tempArray.includes(wordArray[i].toLowerCase())) { word = wordArray[i]; }
-    tempArray.push(wordArray[i].toLowerCase());
-    i++;
-    if(i &gt;= wordArray.length) word = 'no duplicates found';
-  }
-  return word;
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">function insertionSort(arr) {
+  for(let i = 1; i &lt; arr.length; i++) {
+    let j = i - 1;
+    let temp = arr[i];
+    while(j &gt;= 0 &amp;&amp; temp &lt; arr[j]) {
+      arr[j + 1] = arr[j];
+      j = j - 1;
+    }
+    arr[j + 1] = temp;
+  } 
+  return arr;
 }
-&nbsp;
-function topRepeatedList(str) {
-  const wordArray = str.replace(/[.,\/#!$%\^&amp;\*;:{}=\-_`~()]/g, '').split(' ');
-&nbsp;
-  const wordDictionary = wordArray.reduce((acc, val, idx) =&gt; {
-    if(acc[val.toLowerCase()]) { acc[val.toLowerCase()][0]++; }
-    else { acc[val.toLowerCase()] = [1, idx]; }
-    return acc;
-  }, {});
-&nbsp;
-  const topFrequent = Object.entries(wordDictionary).sort((a, b) =&gt; { return b[1][0] - a[1][0]; });
-  console.log(`topFrequent --- [['string', ['frequency', 'index first found']]]`);
-  return topFrequent;
-}
-&nbsp;
-topRepeatedList('Once upon a time, there was a brave princess who...');
 &nbsp;
 module.exports = {
-  firstRepeatedWord,
-  topRepeatedList
+  insertionSort
 };
+&nbsp;
+&nbsp;
+// -1 - FOR i = 1 to arr.length
+&nbsp;
+//   - 2 - int j &lt; --i - 1
+//     - 3 - int temp &lt; --arr[i]
+&nbsp;
+//       - 4 - WHILE j &gt;= 0 AND temp &lt; arr[j]
+//         - 5 - arr[j + 1] &lt; --arr[j]
+//         - 6 - j &lt; --j - 1
+&nbsp;
+//         - 7 - arr[j + 1] &lt; --temp 
 &nbsp;</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
