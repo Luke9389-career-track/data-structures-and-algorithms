@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1574283717347" clover="3.2.0">
-  <project timestamp="1574283717347" name="All files">
-    <metrics statements="187" coveredstatements="185" conditionals="78" coveredconditionals="77" methods="42" coveredmethods="42" elements="307" coveredelements="304" complexity="0" loc="187" ncloc="187" packages="11" files="11" classes="11"/>
+<coverage generated="1574285665638" clover="3.2.0">
+  <project timestamp="1574285665638" name="All files">
+    <metrics statements="189" coveredstatements="187" conditionals="80" coveredconditionals="79" methods="44" coveredmethods="44" elements="313" coveredelements="310" complexity="0" loc="189" ncloc="189" packages="11" files="11" classes="11"/>
     <package name="arrayBinarySearch">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -203,21 +203,21 @@
       </file>
     </package>
     <package name="tree">
-      <metrics statements="34" coveredstatements="34" conditionals="32" coveredconditionals="32" methods="8" coveredmethods="8"/>
+      <metrics statements="36" coveredstatements="36" conditionals="34" coveredconditionals="34" methods="10" coveredmethods="10"/>
       <file name="tree.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/tree/tree.js">
-        <metrics statements="34" coveredstatements="34" conditionals="32" coveredconditionals="32" methods="8" coveredmethods="8"/>
-        <line num="3" count="40" type="stmt"/>
-        <line num="4" count="40" type="stmt"/>
-        <line num="5" count="40" type="stmt"/>
+        <metrics statements="36" coveredstatements="36" conditionals="34" coveredconditionals="34" methods="10" coveredmethods="10"/>
+        <line num="3" count="45" type="stmt"/>
+        <line num="4" count="45" type="stmt"/>
+        <line num="5" count="45" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
-        <line num="11" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="34" type="cond" truecount="2" falsecount="0"/>
-        <line num="16" count="31" type="stmt"/>
-        <line num="17" count="31" type="stmt"/>
-        <line num="21" count="15" type="stmt"/>
-        <line num="22" count="15" type="cond" truecount="2" falsecount="0"/>
-        <line num="23" count="15" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="15" type="stmt"/>
+        <line num="11" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="35" type="stmt"/>
+        <line num="17" count="35" type="stmt"/>
+        <line num="21" count="25" type="stmt"/>
+        <line num="22" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="25" type="stmt"/>
         <line num="28" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="29" count="5" type="stmt"/>
         <line num="30" count="5" type="cond" truecount="2" falsecount="0"/>
@@ -237,9 +237,11 @@
         <line num="54" count="2" type="stmt"/>
         <line num="56" count="5" type="stmt"/>
         <line num="59" count="1" type="stmt"/>
-        <line num="84" count="49" type="stmt"/>
-        <line num="85" count="49" type="cond" truecount="2" falsecount="0"/>
-        <line num="86" count="49" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="16" type="stmt"/>
+        <line num="70" count="55" type="stmt"/>
+        <line num="71" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="55" type="cond" truecount="2" falsecount="0"/>
       </file>
     </package>
     <package name="treeIntersection">

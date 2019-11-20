@@ -12,28 +12,28 @@ module.exports = class Tree {
   }
 
   add(value) {
-    if(!this.root) { this.root = new Node(value); return; }
+    if (!this.root) { this.root = new Node(value); return; }
     let node = this.root;
     return findAndDrop(value, node);
   }
 
   preOrderTraversal(node = this.root, values = []) {
     values.push(node.value);
-    if(node.left) this.preOrderTraversal(node.left, values);
-    if(node.right) this.preOrderTraversal(node.right, values);
+    if (node.left) this.preOrderTraversal(node.left, values);
+    if (node.right) this.preOrderTraversal(node.right, values);
     return values;
   }
 
   inOrderTraversal(node = this.root, values = []) {
-    if(node.left) this.inOrderTraversal(node.left, values);
+    if (node.left) this.inOrderTraversal(node.left, values);
     values.push(node.value);
-    if(node.right) this.inOrderTraversal(node.right, values);
+    if (node.right) this.inOrderTraversal(node.right, values);
     return values;
   }
 
   postOrderTraversal(node = this.root, values = []) {
-    if(node.left) this.postOrderTraversal(node.left, values);
-    if(node.right) this.postOrderTraversal(node.right, values);
+    if (node.left) this.postOrderTraversal(node.left, values);
+    if (node.right) this.postOrderTraversal(node.right, values);
     values.push(node.value);
     return values;
   }
@@ -44,39 +44,25 @@ module.exports = class Tree {
 
     queue.push(node);
 
-    while(queue.length > 0) {
+    while (queue.length > 0) {
       values.push(queue[0].value);
 
-      if(queue[0].left) {
+      if (queue[0].left) {
         queue.push(queue[0].left);
       }
-      if(queue[0].right) {
+      if (queue[0].right) {
         queue.push(queue[0].right);
       }
       queue.shift();
     }
-    
+
     return values;
   }
 
-  //   module.exports = function breadthFirstTransversal(tree) {
-  //   const queue = [];
-  //   const rootValues = [];
-  //   queue.push(tree.root);
-  //   while (queue.length > 0) {
-  //     // console.log(queue[0].value);
-  //     rootValues.push(queue[0].value);
-  //     if (queue[0].left) {
-  //       queue.push(queue[0].left);
-  //     }
-  //     if (queue[0].right) {
-  //       queue.push(queue[0].right);
-  //     }
-  //     queue.shift();
-  //   }
-
-  //   return rootValues;
-  // };
+  highestValue(node = this.root, values = []) {
+    const allValues = this.preOrderTraversal(node, values);
+    return allValues.sort((a, b) => (b - a)).slice(0, 1)[0];
+  }
 
 };
 
