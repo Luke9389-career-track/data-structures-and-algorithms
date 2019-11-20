@@ -37,6 +37,7 @@ module.exports = class Tree {
     values.push(node.value);
     return values;
   }
+
 };
 
 function findAndDrop(value, node) {
