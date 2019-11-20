@@ -23,7 +23,6 @@ function topRepeatedList(str) {
   }, {});
 
   const topFrequent = Object.entries(wordDictionary).sort((a, b) => { return b[1][0] - a[1][0]; });
-  console.log(`topFrequent --- [['string', ['frequency', 'index first found']]]`);
   return topFrequent;
 }
 

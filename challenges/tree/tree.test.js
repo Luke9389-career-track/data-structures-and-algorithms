@@ -48,6 +48,15 @@ describe('tree', () => {
     myTree.add(6);
     expect(myTree.postOrderTraversal()).toEqual([1, 3, 2, 6, 5]);
   });
+  it('breadthFirstTraversal', () => {
+    const myTree = new Tree();
+    myTree.add(5);
+    myTree.add(2);
+    myTree.add(1);
+    myTree.add(3);
+    myTree.add(6);
+    expect(myTree.breadthFirstTraversal()).toEqual([5, 2, 6, 1, 3]);
+  });
 
 });
 
