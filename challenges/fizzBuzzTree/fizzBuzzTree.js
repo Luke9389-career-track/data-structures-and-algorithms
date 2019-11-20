@@ -1,5 +1,3 @@
-const Tree = require('../tree/tree');
-
 function fizzBuzzTree(tree) {
   let currentNode = tree.root;
   buzzify(currentNode, tree);
