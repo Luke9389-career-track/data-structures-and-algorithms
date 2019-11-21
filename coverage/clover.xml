@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1574373291952" clover="3.2.0">
-  <project timestamp="1574373291952" name="All files">
-    <metrics statements="217" coveredstatements="215" conditionals="90" coveredconditionals="89" methods="46" coveredmethods="46" elements="353" coveredelements="350" complexity="0" loc="217" ncloc="217" packages="12" files="12" classes="12"/>
+<coverage generated="1574380638196" clover="3.2.0">
+  <project timestamp="1574380638196" name="All files">
+    <metrics statements="239" coveredstatements="237" conditionals="94" coveredconditionals="93" methods="48" coveredmethods="48" elements="381" coveredelements="378" complexity="0" loc="239" ncloc="239" packages="13" files="13" classes="13"/>
     <package name="arrayBinarySearch">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -134,37 +134,34 @@
       </file>
     </package>
     <package name="mergeSort">
-      <metrics statements="28" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <metrics statements="25" coveredstatements="25" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
       <file name="mergeSort.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/mergeSort/mergeSort.js">
-        <metrics statements="28" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="2" count="22" type="stmt"/>
-        <line num="5" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="9" count="10" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="11" count="10" type="stmt"/>
-        <line num="13" count="22" type="stmt"/>
-        <line num="17" count="10" type="stmt"/>
-        <line num="18" count="10" type="stmt"/>
-        <line num="19" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="20" count="18" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="11" type="stmt"/>
-        <line num="23" count="7" type="stmt"/>
-        <line num="25" count="18" type="stmt"/>
-        <line num="27" count="10" type="stmt"/>
-        <line num="29" count="10" type="cond" truecount="2" falsecount="0"/>
+        <metrics statements="25" coveredstatements="25" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="5" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
         <line num="30" count="3" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="35" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="36" count="7" type="stmt"/>
-        <line num="37" count="11" type="stmt"/>
-        <line num="38" count="11" type="stmt"/>
-        <line num="42" count="10" type="stmt"/>
-        <line num="44" count="10" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
+        <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
       </file>
     </package>
     <package name="pseudoQueue">
@@ -182,6 +179,37 @@
         <line num="20" count="3" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="quickSort">
+      <metrics statements="25" coveredstatements="25" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="quickSort.js" path="/Users/lukedonahue/alchemy/career-track/data-structures-and-algorithms/challenges/quickSort/quickSort.js">
+        <metrics statements="25" coveredstatements="25" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="2" count="16" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="7" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="19" count="16" type="stmt"/>
+        <line num="20" count="16" type="stmt"/>
+        <line num="21" count="16" type="stmt"/>
+        <line num="22" count="16" type="stmt"/>
+        <line num="23" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="32" count="7" type="stmt"/>
+        <line num="33" count="7" type="stmt"/>
+        <line num="35" count="7" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
       </file>
     </package>
     <package name="repeatedWord">
