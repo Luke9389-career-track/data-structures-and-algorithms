@@ -66,7 +66,6 @@ describe('tree', () => {
     myTree.add(1);
     myTree.add(3);
     myTree.add(6);
-    console.log(myTree.highestValue());
     expect(myTree.highestValue()).toEqual(6);
   });
 
